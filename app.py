@@ -7,9 +7,9 @@ st.write(
 '''
 )
 
-a = st.number_input('Enter a number: ')
-b = st.number_input('Enter a number: ')
-c = st.number_input('Enter a number: ')
+a = st.number_input('Enter first number: ')
+b = st.number_input('Enter second number: ')
+c = st.number_input('Enter third number: ')
 
 m = max(a,b,c)
 
